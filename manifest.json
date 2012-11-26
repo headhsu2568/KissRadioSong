@@ -1,0 +1,21 @@
+{
+   "name": "KissRadioSong",
+   "version": "1.0", 
+   "description": "Get the songlist of Kiss Radio", 
+   "manifest_version": 2,
+   "icons": {
+      "128": "icons/KissRadio128.jpg",
+      "16": "icons/KissRadio16.jpg",
+      "32": "icons/KissRadio32.jpg",
+      "48": "icons/KissRadio48.jpg",
+      "19": "icons/KissRadio19.jpg",
+      "16": "icons/KissRadio16.jpg"
+   },
+   "browser_action": {
+      "default_icon": "icons/KissRadio19.jpg", 
+      "default_popup": "KissRadio.html",
+      "default_title": "KissRadioSong"
+   },
+   "content_security_policy": "script-src 'self' https://www.kiss.com.tw/songlist/; object-src 'self'", 
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ]
+}
