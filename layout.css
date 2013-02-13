@@ -20,6 +20,23 @@ div#song {
 div#songlist {
 }
 
+a:link {
+    text-decoration: none;
+    color: rgba(0%, 0%, 0%, 1);
+}
+a:visited {
+    text-decoration: none;
+    color: rgba(0%, 0%, 0%, 1);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgba(0%, 0%, 0%, 1);
+}
+a:active {
+    text-decoration: underline;
+    color: rgba(0%, 0%, 0%, 1);
+}
+
 body {
     width: auto;
     background-color: #FFFFFF;
