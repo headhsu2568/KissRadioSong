@@ -11,7 +11,9 @@ function getCurrentSong() {
 function afterStateChange() {
     if(req.readyState == 4 && req.status == 200) {
         var match = /<span\s+class="playing_info"\s*>(.*?)<\s*\/\s*span>/.exec(req.responseText);
-        var str = match[1].replace(/<.*?>/g, '');
+        var str = match[1].replace(/<img .*?>/g, '');
+        str = str.replace(/<\/img>/g, '');
+        str = str.replace(/<a href="(.*?)">/g, '<a href="http://www.kiss.com.tw$1" target="_blank">');
         if(str.replace(/\s/g, '') === '') {
             str = '目前暫無播放資訊';
         }
