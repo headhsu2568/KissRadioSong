@@ -1,18 +1,18 @@
 {
    "name": "KissRadioSong",
-   "version": "1.1", 
+   "version": "1.2", 
    "description": "Get the songlist of Kiss Radio", 
    "manifest_version": 2,
    "icons": {
-      "128": "icons/KissRadio128.jpg",
-      "16": "icons/KissRadio16.jpg",
-      "32": "icons/KissRadio32.jpg",
-      "48": "icons/KissRadio48.jpg",
-      "19": "icons/KissRadio19.jpg",
-      "16": "icons/KissRadio16.jpg"
+      "128": "icons/KissRadio128.png",
+      "16": "icons/KissRadio16.png",
+      "32": "icons/KissRadio32.png",
+      "48": "icons/KissRadio48.png",
+      "19": "icons/KissRadio19.png",
+      "16": "icons/KissRadio16.png"
    },
    "browser_action": {
-      "default_icon": "icons/KissRadio19.jpg", 
+      "default_icon": "icons/KissRadio19.png", 
       "default_popup": "KissRadio.html",
       "default_title": "KissRadioSong"
    },

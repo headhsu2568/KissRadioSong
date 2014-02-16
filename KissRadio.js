@@ -21,7 +21,7 @@ function afterStateChange() {
             str = str.replace(/：/, '：<br/><b>');
             str = str+'</b>';
         }
-        var iconStr = '<a href="http://www.kiss.com.tw/service/songlist/?tp=KISS" target="_blank"><img title="Kiss Radio" alt="Kiss Radio" src="icons/KissRadio19.jpg" /></a>';
+        var iconStr = '<a href="http://www.kiss.com.tw/service/songlist/?tp=KISS" target="_blank"><img title="Kiss Radio" alt="Kiss Radio" src="icons/KissRadio19.png" /></a>';
         var loadBar = document.getElementById('loadbar');
         loadBar.style.display = 'none';
         var song = document.getElementById('song');
